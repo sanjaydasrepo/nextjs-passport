@@ -1,8 +1,8 @@
 require("dotenv").config();
-import express from "express";
-import http from "http";
-import next from "next";
-import thoughtsAPI from "./thoughts-api";
+const express = require("express");
+const http = require("http");
+const next = require("next");
+const thoughtsAPI = require("./thoughts-api");
 
 const dev = process.env.NODE_ENV !== "production";
 
